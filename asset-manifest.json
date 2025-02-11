@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/fetch-dog-adoption/static/css/main.fdd9d377.css",
-    "main.js": "/fetch-dog-adoption/static/js/main.298a3e50.js",
+    "main.css": "/fetch-dog-adoption/static/css/main.0120e6e1.css",
+    "main.js": "/fetch-dog-adoption/static/js/main.4239cc63.js",
     "static/media/dog.png": "/fetch-dog-adoption/static/media/dog.e123ad84e6cb09545d30.png",
     "index.html": "/fetch-dog-adoption/index.html",
-    "main.fdd9d377.css.map": "/fetch-dog-adoption/static/css/main.fdd9d377.css.map",
-    "main.298a3e50.js.map": "/fetch-dog-adoption/static/js/main.298a3e50.js.map"
+    "main.0120e6e1.css.map": "/fetch-dog-adoption/static/css/main.0120e6e1.css.map",
+    "main.4239cc63.js.map": "/fetch-dog-adoption/static/js/main.4239cc63.js.map"
   },
   "entrypoints": [
-    "static/css/main.fdd9d377.css",
-    "static/js/main.298a3e50.js"
+    "static/css/main.0120e6e1.css",
+    "static/js/main.4239cc63.js"
   ]
 }
