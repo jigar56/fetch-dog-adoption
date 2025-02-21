@@ -11,13 +11,13 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   session({
-    secret: "your_secret_key", // Change this to a strong secret
+    secret: "your_secret_key",
     resave: false,
     saveUninitialized: true,
-    cookie: { secure: false }, // Set true if using HTTPS
+    cookie: { secure: false },
   })
 );
-app.use(cors({ origin: "http://localhost:3001", credentials: true })); // Update with your frontend URL
+app.use(cors({ origin: "http://localhost:3001", credentials: true }));
 
 // Function to handle cookie consent
 function askForCookies(req, res) {
