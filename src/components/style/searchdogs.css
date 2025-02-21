@@ -1,0 +1,177 @@
+/* Import Lexend Font */
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap');
+
+/* Import Bootstrap */
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css');
+
+/* Global Styles */
+body {
+  background: #262626;
+  color: #e0e0e0;
+  font-family: Lexend, sans-serif !important;
+}
+/* Search Container with Glassmorphism Effect */
+.search-container {
+  /*-webkit-backdrop-filter: blur(20px);
+   backdrop-filter: blur(20px); */
+  background: linear-gradient(135deg, #282828cc, #141414cc);
+  /* border: 1px solid #ffffff1a; */
+  /* box-shadow: 0 8px 32px #0003; */
+  display: flex
+;
+  flex-direction: column;
+}
+
+/* Filter Section */
+.filter-section {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.filter-section h2 {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* Filter Inputs */
+.filter-input {
+  background: rgba(255, 255, 255, 0.1);
+  color: #e0e0e0;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+.filter-input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.filter-input:focus {
+  border-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* Filter Buttons */
+.filter-btn {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 600;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: #ffffff;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.filter-btn:hover {
+  background: linear-gradient(135deg, #2575fc, #6a11cb);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Dog Cards Section */
+.dog-section {
+  padding: 20px;
+  margin: 7px 0px;
+}
+
+/* Mobile Filter Button */
+.mobile-filter-btn {
+  display: none;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.mobile-filter-btn:hover {
+  transform: scale(1.1);
+}
+
+/* Sticky Next/Previous Buttons */
+.sticky-buttons {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  z-index: 1000;
+  background: rgba(30, 30, 30, 0.8);
+  backdrop-filter: blur(15px);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.pagination-btn {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.pagination-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.pagination-btn:disabled {
+  background: rgba(100, 100, 100, 0.5);
+  cursor: not-allowed;
+}
+
+.page-number {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .search-container {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .mobile-filter-btn {
+    display: block;
+  }
+
+  .filter-section {
+    display: none;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .filter-section.open {
+    display: block;
+  }
+
+  .dog-section {
+    width: 100%;
+  }
+}

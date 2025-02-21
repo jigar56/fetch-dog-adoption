@@ -1,0 +1,25 @@
+
+/* Global styles */
+
+.app {
+  background-color: #4b4b4b;
+  font-family: 'Lexend', sans-serif !important;
+  min-height: 100%;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+  .logout-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .sidebar {
+      height: auto;
+      border-right: none;
+      border-bottom: 1px solid #dee2e6;
+    }
+  }
