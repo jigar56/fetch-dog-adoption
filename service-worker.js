@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/fetch-dog-adoption/precache-manifest.7a034433cfef0d29abea2f03cb18a732.js"
+  "/fetch-dog-adoption/precache-manifest.b768bf9db1942cc747df0c9e2273542e.js"
 );
 
 self.addEventListener('message', (event) => {
