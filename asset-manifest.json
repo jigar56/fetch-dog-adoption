@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/fetch-dog-adoption/static/css/main.ae3d601a.chunk.css",
+    "main.css": "/fetch-dog-adoption/static/css/main.b8fd9e6d.chunk.css",
     "main.js": "/fetch-dog-adoption/static/js/main.66b02801.chunk.js",
     "main.js.map": "/fetch-dog-adoption/static/js/main.66b02801.chunk.js.map",
     "runtime~main.js": "/fetch-dog-adoption/static/js/runtime~main.991018fd.js",
@@ -9,10 +9,10 @@
     "static/js/2.40b20c03.chunk.js": "/fetch-dog-adoption/static/js/2.40b20c03.chunk.js",
     "static/js/2.40b20c03.chunk.js.map": "/fetch-dog-adoption/static/js/2.40b20c03.chunk.js.map",
     "index.html": "/fetch-dog-adoption/index.html",
-    "precache-manifest.c25c84b5b83aaa00bcf7ddb06e9ede54.js": "/fetch-dog-adoption/precache-manifest.c25c84b5b83aaa00bcf7ddb06e9ede54.js",
+    "precache-manifest.f7de2aeaf58ba583d51b0c4aaeaa7768.js": "/fetch-dog-adoption/precache-manifest.f7de2aeaf58ba583d51b0c4aaeaa7768.js",
     "service-worker.js": "/fetch-dog-adoption/service-worker.js",
     "static/css/2.fffe831b.chunk.css.map": "/fetch-dog-adoption/static/css/2.fffe831b.chunk.css.map",
-    "static/css/main.ae3d601a.chunk.css.map": "/fetch-dog-adoption/static/css/main.ae3d601a.chunk.css.map",
+    "static/css/main.b8fd9e6d.chunk.css.map": "/fetch-dog-adoption/static/css/main.b8fd9e6d.chunk.css.map",
     "static/media/login.css": "/fetch-dog-adoption/static/media/dog.2cf4c65a.jpg"
   }
 }

@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fd4a0892b49e1ef2f47d277cc67c5a56",
+    "revision": "8640741208807f3f7f89f796801d70f4",
     "url": "/fetch-dog-adoption/index.html"
   },
   {
@@ -8,15 +8,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fetch-dog-adoption/static/css/2.fffe831b.chunk.css"
   },
   {
-    "revision": "954e98a97de841633a95",
-    "url": "/fetch-dog-adoption/static/css/main.ae3d601a.chunk.css"
+    "revision": "1d703054fc487f120bfe",
+    "url": "/fetch-dog-adoption/static/css/main.b8fd9e6d.chunk.css"
   },
   {
     "revision": "a421582a37c81aa00782",
     "url": "/fetch-dog-adoption/static/js/2.40b20c03.chunk.js"
   },
   {
-    "revision": "954e98a97de841633a95",
+    "revision": "1d703054fc487f120bfe",
     "url": "/fetch-dog-adoption/static/js/main.66b02801.chunk.js"
   },
   {
