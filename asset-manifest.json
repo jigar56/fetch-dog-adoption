@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/fetch-dog-adoption/static/css/main.9eee514d.chunk.css",
+    "main.css": "/fetch-dog-adoption/static/css/main.b1b53150.chunk.css",
     "main.js": "/fetch-dog-adoption/static/js/main.0beb7017.chunk.js",
     "main.js.map": "/fetch-dog-adoption/static/js/main.0beb7017.chunk.js.map",
     "runtime-main.js": "/fetch-dog-adoption/static/js/runtime-main.fdb393c7.js",
@@ -9,10 +9,10 @@
     "static/js/2.09449eba.chunk.js": "/fetch-dog-adoption/static/js/2.09449eba.chunk.js",
     "static/js/2.09449eba.chunk.js.map": "/fetch-dog-adoption/static/js/2.09449eba.chunk.js.map",
     "index.html": "/fetch-dog-adoption/index.html",
-    "precache-manifest.14a5561eafbffc7572ee15ddc5922ebb.js": "/fetch-dog-adoption/precache-manifest.14a5561eafbffc7572ee15ddc5922ebb.js",
+    "precache-manifest.57e674ec5122888405a6825b01753555.js": "/fetch-dog-adoption/precache-manifest.57e674ec5122888405a6825b01753555.js",
     "service-worker.js": "/fetch-dog-adoption/service-worker.js",
     "static/css/2.fffe831b.chunk.css.map": "/fetch-dog-adoption/static/css/2.fffe831b.chunk.css.map",
-    "static/css/main.9eee514d.chunk.css.map": "/fetch-dog-adoption/static/css/main.9eee514d.chunk.css.map",
+    "static/css/main.b1b53150.chunk.css.map": "/fetch-dog-adoption/static/css/main.b1b53150.chunk.css.map",
     "static/js/2.09449eba.chunk.js.LICENSE.txt": "/fetch-dog-adoption/static/js/2.09449eba.chunk.js.LICENSE.txt",
     "static/media/login.css": "/fetch-dog-adoption/static/media/dog.2cf4c65a.jpg"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.fdb393c7.js",
     "static/css/2.fffe831b.chunk.css",
     "static/js/2.09449eba.chunk.js",
-    "static/css/main.9eee514d.chunk.css",
+    "static/css/main.b1b53150.chunk.css",
     "static/js/main.0beb7017.chunk.js"
   ]
 }
